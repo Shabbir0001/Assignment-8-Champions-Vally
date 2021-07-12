@@ -6,7 +6,7 @@
     const Header = (props) => {
     const {idLeague} = useParams();
     const {strBadge} = props.league;
-    const pageLogo = idLeague ? <img src={strBadge} style={{maxWidth: "150px"}} alt="" /> : <h1 className="header">Champions Vally</h1>;
+    const pageLogo = idLeague ? <img src={strBadge} style={{maxWidth: "150px"}} alt="" /> : <h1 className="header">Champions Valley</h1>;
 
         return (
             <div className="container-fluid">
